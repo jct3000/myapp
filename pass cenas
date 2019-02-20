@@ -1,0 +1,28 @@
+pass de root aqui e 
+
+teixeira
+
+
+
+mysql -u root -p
+teixeira
+
+
+
+mysql -u joao -p
+joao_pass	
+
+
+show databases;
+
+use restaurantes_database;
+
+show tables;
+
+MODULO:
+mvn clean install
+
+
+APP:
+
+mvn tomcat7:run
