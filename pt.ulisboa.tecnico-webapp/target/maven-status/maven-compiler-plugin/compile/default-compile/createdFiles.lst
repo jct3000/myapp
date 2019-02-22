@@ -224,6 +224,7 @@ org/fenixedu/bennu/scheduler/future/PersistentFuture_Base$2.class
 org/fenixedu/bennu/scheduler/domain/SchedulerSystem_Base$SchedulerSystemLocalFileSystemStorage.class
 pt/ist/fenixframework/consistencyPredicates/DomainDependenceRecord_Base$DomainConsistencyPredicateDomainDependenceRecords.class
 org/fenixedu/bennu/core/domain/groups/PersistentIntersectionGroup_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentGroup_Base$3.class
 org/fenixedu/bennu/core/domain/Bennu_Base$PersistentGroups.class
 org/fenixedu/bennu/io/domain/FileStorage_Base$FileStorageConfigurationFileStorage.class
@@ -269,6 +270,7 @@ org/fenixedu/bennu/io/domain/FileSupport_Base$FileRawDatas.class
 org/fenixedu/bennu/portal/domain/SupportConfiguration_Base$2.class
 pt/ist/fenixframework/DomainMetaClass_Base$2.class
 org/fenixedu/bennu/core/domain/Bennu_Base$7.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1_Base$DO_State.class
 pt/ist/fenixframework/DomainMetaClass_Base$5.class
 pt/ist/fenixframework/adt/bplustree/InnerNode_Base.class
 pt/ist/fenixframework/adt/bplustree/LeafNode_Base$2.class
