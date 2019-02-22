@@ -43,6 +43,7 @@ org/fenixedu/bennu/core/domain/Avatar_Base.class
 org/fenixedu/bennu/scheduler/future/PersistentFutureTask_Base.class
 pt/ist/fenixframework/adt/bplustree/AbstractNodeArray_Base.class
 org/fenixedu/bennu/io/domain/FileRawData_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1.class
 pt/ist/fenixframework/adt/linkedlist/ListNode_Base.class
 org/fenixedu/bennu/io/domain/LocalFileToDelete_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentNegationGroup_Base.class
@@ -51,6 +52,7 @@ org/fenixedu/bennu/core/domain/groups/PersistentIntersectionGroup_Base.class
 org/fenixedu/bennu/core/domain/UserProfile_Base.class
 org/fenixedu/bennu/scheduler/domain/TaskSchedule_Base.class
 org/fenixedu/bennu/portal/domain/MenuItem_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentNobodyGroup_Base.class
 pt/ist/fenixframework/adt/bplustree/InnerNodeArray_Base.class
 org/fenixedu/bennu/io/domain/FileStorage_Base.class

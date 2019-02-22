@@ -237,6 +237,7 @@ org/fenixedu/bennu/io/domain/FileStorage_Base$8.class
 org/fenixedu/bennu/io/domain/FileSupport_Base$13.class
 pt/ist/fenixframework/consistencyPredicates/DomainDependenceRecord_Base$DomainConsistencyPredicateDomainDependenceRecords.class
 org/fenixedu/bennu/core/domain/groups/PersistentIntersectionGroup_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentGroup_Base$3.class
 org/fenixedu/bennu/core/domain/Bennu_Base$PersistentGroups.class
 org/fenixedu/bennu/io/domain/FileStorage_Base$FileStorageConfigurationFileStorage.class

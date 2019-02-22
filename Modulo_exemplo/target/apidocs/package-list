@@ -12,5 +12,6 @@ pt.ist.fenixframework.backend
 pt.ist.fenixframework.backend.jvstm.pstm
 pt.ist.fenixframework.consistencyPredicates
 pt.ist.fenixframework.data
+pt.ulisboa.tecnico.Modulo_exemplo.domain
 pt.ulisboa.tecnico.Modulo_exemplo.servlet
 pt.ulisboa.tecnico.Modulo_exemplo.ui
