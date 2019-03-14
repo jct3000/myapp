@@ -26,3 +26,32 @@ mvn clean install
 APP:
 
 mvn tomcat7:run
+
+
+_________________________FENIX LOCAL_______________
+
+pom fenix
+
+    <groupId>pt.ist</groupId>
+    <artifactId>fenix-framework</artifactId>
+    <version>99.99.99-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+
+
+POM app
+    <parent>
+        <groupId>pt.ist</groupId>
+        <artifactId>fenix-framework</artifactId>
+        <version>99.99.99-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+
+
+comando
+
+mvn  install -nsu
+
+
+

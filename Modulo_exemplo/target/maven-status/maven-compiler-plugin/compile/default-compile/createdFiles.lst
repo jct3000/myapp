@@ -38,9 +38,9 @@ org/fenixedu/bennu/core/domain/groups/PersistentGroup_Base.class
 pt/ist/fenixframework/adt/linkedlist/LinkedList_Base.class
 org/fenixedu/bennu/core/domain/User_Base.class
 pt/ist/fenixframework/DomainFenixFrameworkRoot_Base.class
-org/fenixedu/bennu/core/domain/groups/PersistentUserGroup_Base.class
-org/fenixedu/bennu/core/domain/Avatar_Base.class
 org/fenixedu/bennu/scheduler/future/PersistentFutureTask_Base.class
+org/fenixedu/bennu/core/domain/Avatar_Base.class
+org/fenixedu/bennu/core/domain/groups/PersistentUserGroup_Base.class
 pt/ist/fenixframework/adt/bplustree/AbstractNodeArray_Base.class
 org/fenixedu/bennu/io/domain/FileRawData_Base.class
 pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1.class
@@ -49,9 +49,9 @@ org/fenixedu/bennu/io/domain/LocalFileToDelete_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentNegationGroup_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentAnyoneGroup_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentIntersectionGroup_Base.class
-org/fenixedu/bennu/core/domain/UserProfile_Base.class
 org/fenixedu/bennu/scheduler/domain/TaskSchedule_Base.class
 org/fenixedu/bennu/portal/domain/MenuItem_Base.class
+org/fenixedu/bennu/core/domain/UserProfile_Base.class
 pt/ulisboa/tecnico/Modulo_exemplo/domain/Modulo1_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentNobodyGroup_Base.class
 pt/ist/fenixframework/adt/bplustree/InnerNodeArray_Base.class
@@ -67,6 +67,6 @@ pt/ist/fenixframework/DomainMetaClass_Base.class
 org/fenixedu/bennu/io/domain/DomainStorage_Base.class
 pt/ist/fenixframework/adt/bplustree/BPlusTree_Base.class
 pt/ist/fenixframework/DomainBPlusTreeData_Base.class
-org/fenixedu/bennu/core/domain/groups/PersistentLoggedGroup_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentDynamicGroup_Base.class
+org/fenixedu/bennu/core/domain/groups/PersistentLoggedGroup_Base.class
 org/fenixedu/bennu/core/domain/groups/GroupConstant_Base.class
