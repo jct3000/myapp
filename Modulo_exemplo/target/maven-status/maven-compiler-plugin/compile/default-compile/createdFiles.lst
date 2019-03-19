@@ -1,3 +1,4 @@
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Checkin_Base.class
 org/fenixedu/bennu/core/domain/Bennu_Base.class
 pt/ist/fenixframework/data/InstallationData_Base.class
 org/fenixedu/bennu/scheduler/domain/SchedulerSystem_Base.class
@@ -5,10 +6,13 @@ pt/ist/fenixframework/DomainBPlusTreeJVSTM_Base.class
 pt/ist/fenixframework/DomainRoot_Base.class
 pt/ist/fenixframework/backend/CurrentBackEndId.class
 pt/ist/fenixframework/consistencyPredicates/PublicConsistencyPredicate_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Restaurante_Base.class
 org/fenixedu/bennu/core/domain/UserLoginPeriod_Base.class
 pt/ist/fenixframework/adt/bplustree/DomainBPlusTree_Base.class
 org/fenixedu/bennu/io/domain/FileStorageConfiguration_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Pessoa.class
 org/fenixedu/bennu/portal/domain/MenuContainer_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Restaurante.class
 pt/ist/fenixframework/consistencyPredicates/FinalConsistencyPredicate_Base.class
 pt/ist/fenixframework/backend/jvstm/pstm/FenixFrameworkData_Base.class
 org/fenixedu/bennu/scheduler/future/PersistentFuture_Base.class
@@ -60,6 +64,7 @@ org/fenixedu/bennu/io/domain/GenericFile_Base.class
 pt/ist/fenixframework/ValueTypeSerializer.class
 org/fenixedu/bennu/portal/domain/PortalConfiguration_Base.class
 pt/ist/fenixframework/adt/bplustree/DomainLeafNode_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Checkin.class
 org/fenixedu/bennu/Modulo_exemploSpringConfiguration.class
 org/fenixedu/bennu/core/domain/NameIndex_Base.class
 org/fenixedu/bennu/io/domain/GroupBasedFile_Base.class
@@ -67,6 +72,7 @@ pt/ist/fenixframework/DomainMetaClass_Base.class
 org/fenixedu/bennu/io/domain/DomainStorage_Base.class
 pt/ist/fenixframework/adt/bplustree/BPlusTree_Base.class
 pt/ist/fenixframework/DomainBPlusTreeData_Base.class
+pt/ulisboa/tecnico/Modulo_exemplo/domain/Pessoa_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentLoggedGroup_Base.class
 org/fenixedu/bennu/core/domain/groups/PersistentDynamicGroup_Base.class
 org/fenixedu/bennu/core/domain/groups/GroupConstant_Base.class

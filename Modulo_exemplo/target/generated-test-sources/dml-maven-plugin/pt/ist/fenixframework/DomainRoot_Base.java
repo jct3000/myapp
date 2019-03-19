@@ -31,6 +31,18 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.backend.jvst
         }
         
     };
+    public final static pt.ist.fenixframework.dml.runtime.RoleOne<pt.ist.fenixframework.DomainRoot,pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1> role$$modulo1 = new pt.ist.fenixframework.dml.runtime.RoleOne<pt.ist.fenixframework.DomainRoot,pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1>() {
+        public pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1 getValue(pt.ist.fenixframework.DomainRoot o1) {
+            return ((DomainRoot_Base)o1).modulo1.get();
+        }
+        public void setValue(pt.ist.fenixframework.DomainRoot o1, pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1 o2) {
+            ((DomainRoot_Base)o1).modulo1.put(o2);
+        }
+        public pt.ist.fenixframework.dml.runtime.Role<pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1,pt.ist.fenixframework.DomainRoot> getInverseRole() {
+            return pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1.role$$root;
+        }
+        
+    };
     public final static pt.ist.fenixframework.dml.runtime.RoleOne<pt.ist.fenixframework.DomainRoot,pt.ist.fenixframework.DomainFenixFrameworkRoot> role$$domainFenixFrameworkRoot = new pt.ist.fenixframework.dml.runtime.RoleOne<pt.ist.fenixframework.DomainRoot,pt.ist.fenixframework.DomainFenixFrameworkRoot>() {
         public pt.ist.fenixframework.DomainFenixFrameworkRoot getValue(pt.ist.fenixframework.DomainRoot o1) {
             return ((DomainRoot_Base)o1).domainFenixFrameworkRoot.get();
@@ -67,6 +79,13 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.backend.jvst
         return DomainRootBennu.relation;
     }
     
+    private final static class BennuTemModulo1 {
+        private static final pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1> relation = new pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1>(role$$modulo1, "BennuTemModulo1", pt.ist.fenixframework.txintrospector.TxStats.STATS_LISTENER);
+    }
+    public static pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1> getRelationBennuTemModulo1() {
+        return BennuTemModulo1.relation;
+    }
+    
     private final static class DomainRootDomainFenixFrameworkRoot {
         private static final pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ist.fenixframework.DomainFenixFrameworkRoot> relation = new pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ist.fenixframework.DomainFenixFrameworkRoot>(role$$domainFenixFrameworkRoot, "DomainRootDomainFenixFrameworkRoot", pt.ist.fenixframework.txintrospector.TxStats.STATS_LISTENER);
     }
@@ -86,6 +105,7 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.backend.jvst
     // Role Slots
     private OwnedVBox<pt.ist.fenixframework.data.InstallationData> installationData;
     private OwnedVBox<org.fenixedu.bennu.core.domain.Bennu> bennu;
+    private OwnedVBox<pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1> modulo1;
     private OwnedVBox<pt.ist.fenixframework.DomainFenixFrameworkRoot> domainFenixFrameworkRoot;
     private OwnedVBox<pt.ist.fenixframework.backend.jvstm.pstm.FenixFrameworkData> fenixFrameworkData;
     
@@ -102,6 +122,8 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.backend.jvst
         if (!allocateOnly) this.installationData.put(null);
         bennu = OwnedVBox.makeNew(this, "bennu", allocateOnly, true);
         if (!allocateOnly) this.bennu.put(null);
+        modulo1 = OwnedVBox.makeNew(this, "modulo1", allocateOnly, true);
+        if (!allocateOnly) this.modulo1.put(null);
         domainFenixFrameworkRoot = OwnedVBox.makeNew(this, "domainFenixFrameworkRoot", allocateOnly, true);
         if (!allocateOnly) this.domainFenixFrameworkRoot.put(null);
         fenixFrameworkData = OwnedVBox.makeNew(this, "fenixFrameworkData", allocateOnly, true);
@@ -133,6 +155,14 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.backend.jvst
     
     public void setBennu(org.fenixedu.bennu.core.domain.Bennu bennu) {
         getRelationDomainRootBennu().add((pt.ist.fenixframework.DomainRoot)this, bennu);
+    }
+    
+    public pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1 getModulo1() {
+        return this.modulo1.get();
+    }
+    
+    public void setModulo1(pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1 modulo1) {
+        getRelationBennuTemModulo1().add((pt.ist.fenixframework.DomainRoot)this, modulo1);
     }
     
     public pt.ist.fenixframework.DomainFenixFrameworkRoot getDomainFenixFrameworkRoot() {

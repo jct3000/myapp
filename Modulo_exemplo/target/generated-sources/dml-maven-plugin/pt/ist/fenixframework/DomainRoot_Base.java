@@ -13,6 +13,10 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.core.Abstrac
         return new pt.ist.fenixframework.dml.runtime.DirectRelation(null, null);
     }
     
+    public static pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1> getRelationBennuTemModulo1() {
+        return new pt.ist.fenixframework.dml.runtime.DirectRelation(null, null);
+    }
+    
     public static pt.ist.fenixframework.dml.runtime.DirectRelation<pt.ist.fenixframework.DomainRoot,pt.ist.fenixframework.DomainFenixFrameworkRoot> getRelationDomainRootDomainFenixFrameworkRoot() {
         return new pt.ist.fenixframework.dml.runtime.DirectRelation(null, null);
     }
@@ -43,6 +47,14 @@ public abstract class DomainRoot_Base extends pt.ist.fenixframework.core.Abstrac
     }
     
     public void setBennu(org.fenixedu.bennu.core.domain.Bennu bennu) {
+        throw new UnsupportedOperationException("Not implemented in default code generator");
+    }
+    
+    public pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1 getModulo1() {
+        throw new UnsupportedOperationException("Not implemented in default code generator");
+    }
+    
+    public void setModulo1(pt.ulisboa.tecnico.Modulo_exemplo.domain.Modulo1 modulo1) {
         throw new UnsupportedOperationException("Not implemented in default code generator");
     }
     
