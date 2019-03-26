@@ -1,0 +1,95 @@
+package pt.ist.Modulo_exemplo.domain;
+
+
+
+/** Classes **/
+
+
+/*
+*
+*   Esta é a classe principal que funciona como ancora para ligar todas as outras classes ao root
+*   funcionando como uma especie de fluxograma de dados
+*
+*
+*
+*/
+
+
+    class Modulo1{
+    }
+
+
+
+
+
+    class Pessoa{
+        String name;
+        int age;
+        String email;
+        String adress;
+        //boolean personal_tag;
+    }
+
+    class Restaurante{
+        String name;
+        String email;
+        String adress;
+        //boolean personal_tag;
+    }
+
+
+    class Checkin{
+        DateTime visithour;
+        int rate;
+        String evaluation;
+        //boolean personal_tag;
+    }
+
+
+
+
+
+
+
+/** Relations **/
+
+
+
+/*
+*
+*   Esta relação (BennuTemModulo1) é importante pois da a classe Modulo1 a sua fucção
+*   de ancora estabelecendo a sua ligação com o root
+*
+*/
+
+
+
+    relation BennuTemModulo1 {
+        .pt.ist.fenixframework.DomainRoot playsRole root { multiplicity 1..1; }
+        Modulo1 playsRole modulo1 { multiplicity 0..1; }
+    }
+
+
+    relation Modulo1TemPessoas {
+        Modulo1 playsRole modulo1 { multiplicity 1..1; }
+        Pessoa playsRole pessoa { multiplicity 0..*; }
+    }
+
+    relation Modulo1TemRestaurantes {
+        Modulo1 playsRole modulo1 { multiplicity 1..1; }
+        Restaurante playsRole restaurante { multiplicity 0..*; }
+    }
+
+
+    relation PessoaFazCheckin {
+        Pessoa playsRole pessoa { multiplicity 1..1; }
+        Checkin playsRole checkin { multiplicity 1..1; }
+    }
+
+    relation RestauranteTemCheckin {
+        Restaurante playsRole restaurante { multiplicity 1..1; }
+        Checkin playsRole checkin { multiplicity 0..*; }
+        }
+
+
+
