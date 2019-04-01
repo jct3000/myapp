@@ -47,11 +47,45 @@ POM app
         <relativePath/>
     </parent>
 
+colocar also buit in de README  fenix (next dependencies)
+
+
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>pt.ist</groupId>
+                <artifactId>ff-maven-plugin</artifactId>
+                <version>99.99.99-SNAPSHOT</version>
+                <configuration>
+                    <codeGeneratorClassName>${fenixframework.code.generator}</codeGeneratorClassName>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>ff-generate-domain</goal>
+                            <goal>ff-process-atomic-annotations</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 
 
 comando
 
 mvn  install -nsu
 
+---------------------------servlet da erro---------
 
+POM app
+
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.0.1</version>
+    <scope>provided</scope>
+</dependency>
 
