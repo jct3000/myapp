@@ -19,7 +19,6 @@ package pt.ulisboa.tecnico.Modulo_exemplo.domain;
     }
 
 
-/*
 
 
     class Pessoa{
@@ -46,7 +45,7 @@ package pt.ulisboa.tecnico.Modulo_exemplo.domain;
     }
 
 
-*/
+
 
 
 
@@ -62,7 +61,7 @@ package pt.ulisboa.tecnico.Modulo_exemplo.domain;
 *
 */
 
-/*
+
 
     relation BennuTemModulo1 {
         .pt.ist.fenixframework.DomainRoot playsRole root { multiplicity 1..1; }
@@ -92,4 +91,4 @@ package pt.ulisboa.tecnico.Modulo_exemplo.domain;
         }
 
 
-*/
+
