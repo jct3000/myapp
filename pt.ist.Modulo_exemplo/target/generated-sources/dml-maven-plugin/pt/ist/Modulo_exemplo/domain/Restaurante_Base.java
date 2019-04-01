@@ -44,6 +44,14 @@ public abstract class Restaurante_Base extends pt.ist.fenixframework.core.Abstra
         throw new UnsupportedOperationException("Not implemented in default code generator");
     }
     
+    public boolean getPersonal_tag() {
+        throw new UnsupportedOperationException("Not implemented in default code generator");
+    }
+    
+    public void setPersonal_tag(boolean personal_tag) {
+        throw new UnsupportedOperationException("Not implemented in default code generator");
+    }
+    
     // Role Methods
     
     public void addCheckin(pt.ist.Modulo_exemplo.domain.Checkin checkin) {

@@ -1,4 +1,4 @@
-package org.fenixedu.bennu;
+package pt.ist.bennu;
 
 import org.fenixedu.bennu.spring.BennuSpringModule;
 

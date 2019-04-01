@@ -5,7 +5,7 @@ import pt.ist.fenixframework.FenixFramework;
 
 public class Modulo1 extends Modulo1_Base {
     
-    public Modulo1() {
+   public Modulo1() {
         super();
 	this.setRoot(FenixFramework.getDomainRoot()); 
 // transforma esta classe em ancora que fixa as outras classes ao bennu

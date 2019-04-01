@@ -1,4 +1,5 @@
 package pt.ist.Modulo_exemplo.domain;
+
 import pt.ist.fenixframework.Atomic;
 import pt.ist.fenixframework.FenixFramework;
 import org.apache.avro.reflect.Nullable;
@@ -62,9 +63,3 @@ public class Pessoa extends Pessoa_Base {
 	}
 
 }
-
-
-
-
-
-

@@ -19,13 +19,13 @@ public class Checkin extends Checkin_Base {
     public static Checkin createCheckin( @Nullable final DateTime hora, final int classificacao, final String avaliacao,final Pessoa pessoa, final Restaurante restaurante){
 
 	Checkin checkin = new Checkin();
-        if (hora != null) {
+      /*  if (hora != null) {
             checkin.setVisithour(hora);
             //Opcional: 
         }
         else {
             checkin.setVisithour(DateTime.now());
-}
+}*/
 	checkin.setRate(classificacao);	
 	checkin.setEvaluation(avaliacao);
 
