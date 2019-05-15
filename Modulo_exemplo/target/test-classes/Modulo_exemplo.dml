@@ -26,14 +26,14 @@ package pt.ulisboa.tecnico.Modulo_exemplo.domain;
         int age;
         String email;
         String adress;
-        //boolean personal_tag;
+        boolean personal_tag;
     }
 
     class Restaurante{
         String name;
         String email;
         String adress;
-        //boolean personal_tag;
+        boolean personal_tag;
     }
 
 
@@ -41,7 +41,7 @@ package pt.ulisboa.tecnico.Modulo_exemplo.domain;
         DateTime visithour;
         int rate;
         String evaluation;
-        //boolean personal_tag;
+        boolean personal_tag;
     }
 
 

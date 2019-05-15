@@ -44,6 +44,14 @@ public abstract class Checkin_Base extends pt.ist.fenixframework.core.AbstractDo
         throw new UnsupportedOperationException("Not implemented in default code generator");
     }
     
+    public boolean getPersonal_tag() {
+        throw new UnsupportedOperationException("Not implemented in default code generator");
+    }
+    
+    public void setPersonal_tag(boolean personal_tag) {
+        throw new UnsupportedOperationException("Not implemented in default code generator");
+    }
+    
     // Role Methods
     
     public pt.ulisboa.tecnico.Modulo_exemplo.domain.Restaurante getRestaurante() {

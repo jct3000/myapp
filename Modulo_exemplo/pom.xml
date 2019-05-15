@@ -19,10 +19,52 @@
 
     <properties>
         <version.org.fenixedu.bennu>6.1.1</version.org.fenixedu.bennu>
-                <version.org.fenixedu.bennu.spring>1.2.0</version.org.fenixedu.bennu.spring>
-            </properties>
+        <version.org.fenixedu.bennu.spring>1.2.0</version.org.fenixedu.bennu.spring>
+       <fenixframework.code.generator>pt.ist.fenixframework.backend.mem.MemCodeGenerator</fenixframework.code.generator> -->
+  <!--     <fenixframework.code.generator>pt.ist.fenixframework.backend.dp.DpCodeGenerator</fenixframework.code.generator>-->
+  <!--      <codeGeneratorClassName>pt.ist.fenixframework.backend.mem.MemCodeGenerator</codeGeneratorClassName> -->
+     </properties>
 
     <dependencies>
+
+
+        <dependency>
+            <groupId>pt.ist</groupId>
+            <artifactId>fenix-framework-backend-dp-code-generator</artifactId>
+            <version>99.99.99-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>pt.ist</groupId>
+            <artifactId>fenix-framework-backend-ogm-code-generator</artifactId>
+            <version>99.99.99-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>pt.ist</groupId>
+            <artifactId>fenix-framework-backend-infinispan-code-generator</artifactId>
+            <version>99.99.99-SNAPSHOT</version>
+        </dependency>
+<!--        <dependency>
+            <groupId>pt.ist</groupId>
+            <artifactId>fenix-framework-backend-dp-runtime</artifactId>
+            <version>99.99.99-SNAPSHOT</version>
+        </dependency> -->
+        <dependency>
+        <groupId>pt.ist</groupId>
+        <artifactId>fenix-framework-backend-mem-runtime</artifactId>
+        <version>99.99.99-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>pt.ist</groupId>
+            <artifactId>fenix-framework-backend-mem-code-generator</artifactId>
+            <version>99.99.99-SNAPSHOT</version>
+        </dependency>
+
+
+
+
+
+
+
                 <dependency>
             <groupId>org.fenixedu</groupId>
             <artifactId>bennu-core</artifactId>
@@ -67,8 +109,9 @@
                 <artifactId>ff-maven-plugin</artifactId>
                 <version>99.99.99-SNAPSHOT</version>
                 <configuration>
-                    <codeGeneratorClassName>${fenixframework.code.generator}</codeGeneratorClassName>
-                </configuration>
+                  <codeGeneratorClassName>${fenixframework.code.generator}</codeGeneratorClassName>								<!--  ${fenixframework.code.generator}   -->
+<!--                    <codeGeneratorClassName>pt.ist.fenixframework.backend.mem.MemCodeGenerator</codeGeneratorClassName>	-->							<!--  ${fenixframework.code.generator}   -->
+                  </configuration>
                 <executions>
                     <execution>
                         <goals>
